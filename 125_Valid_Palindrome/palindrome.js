@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isPalindrome = function(s) {
+const isPalindrome = function(s) {
     let newStr= s.replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
     
     for (let i = 0; i < newStr.length; i++) {
