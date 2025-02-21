@@ -16,6 +16,13 @@ var containsDuplicate = function(nums) {
     return false;
 };
 
+
+//2025 update
+const containsDuplicate = function(nums) {
+    const numSet = new Set(nums);
+    return numSet.size<nums.length
+};
+
 let mySet = new Set();
 mySet.add(1)
 mySet.add(3)
