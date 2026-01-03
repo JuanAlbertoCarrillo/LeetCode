@@ -25,3 +25,8 @@ var removeDuplicates = function(array){
     
     return i+1;
 }
+
+nums = [0,0,1,1,1,2,2,3,3,4]
+
+console.log(removeDuplicates(nums))
+console.log(nums)
